@@ -1,0 +1,13 @@
+.titulo_pagina {
+    display: flex;
+    align-self: center;
+
+}
+
+.image {
+    background-image: url('../img/R\ \(5\).jpeg');
+    filter: blur(4px);
+    -webkit-filter: blur(4px);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
