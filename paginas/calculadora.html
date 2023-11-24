@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/calculadora.css">
+</head>
+<body>
+    <main>
+        <h2>calculo imc</h2>
+        <div class="divaltura">
+            <label for="altura">Altura:</label>
+            <input 
+                type="number" 
+                name="height" 
+                id="altura"
+                placeholder="Exemplo 1,75">
+        </div>
+        <div class="divpeso">
+                <label for="peso">Peso:</label>
+                <input 
+                type="number" 
+                name="weight" 
+                id="peso"
+                placeholder="Exemplo 70,5">
+            </div>
+        <div class="action-control">
+            <button onclick="calcIMC()">Calcular</button>
+        </div>
+        <div id="resultado">
+            <div id = "img"></div>
+            <div id="calcIMC"></div> 
+        </div>
+      
+    </main>
+    <script src="../js/myscript.js"></script>
+</body>
+</html>
